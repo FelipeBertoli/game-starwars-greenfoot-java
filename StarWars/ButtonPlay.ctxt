@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ButtonPlay
+comment0.text=\r\n\ A\ button\ that,\ when\ clicked,\ starts\ the\ game\ mode.\r\n\ \ \r\n\ author\ Rafael\ Haruo\ Nakagawa\ Hoshino\r\n\ version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Sets\ the\ image\ of\ the\ button\ to\ "buttonplay.png"\ and\ checks\ for\ mouse\ clicks.\r\n\ If\ the\ button\ is\ clicked,\ sets\ the\ world\ to\ a\ new\ instance\ of\ GameMode.\r\n
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Endless
+comment0.text=\r\n\r\nThis\ class\ represents\ the\ game\ mode\ 'Endless',\ and\ contains\ the\ game\ logic\ and\ elements.\r\nIn\ this\ mode,\ the\ player\ fights\ against\ an\ endless\ wave\ of\ stormtroopers\ until\ they\ are\ defeated.\r\nThe\ game\ ends\ when\ the\ player's\ health\ reaches\ zero.\r\nIt\ contains\ the\ player,\ enemy,\ and\ various\ UI\ elements\ such\ as\ health\ bars\ and\ icons.\ Also\ adds\ a\ background\ music\r\n\r\n@author\ Felipe\ Bertoli\ Oliveira\ \r\n@version\ 1.0\r\n
+comment1.params=
+comment1.target=Endless()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Endless.\r\n\ Sets\ the\ size\ of\ the\ game\ world\ and\ initializes\ the\ game\ objects,\ user\ interface\ elements\ and\ music.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ the\ Endless\ class.\r\n\ Performs\ various\ actions\ every\ act()\ cycle,\ including\ updating\ the\ health\ bar\ and\ the\ kill\ count.\r\n\ If\ the\ player's\ health\ reaches\ zero,\ the\ game\ ends\ and\ the\ player's\ score\ is\ written\ to\ a\ file.\r\n
+comment3.params=
+comment3.target=int\ getGameMode()
+comment4.params=
+comment4.target=int\ getKillCount()
+numComments=5

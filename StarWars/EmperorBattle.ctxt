@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=EmperorBattle
+comment0.text=\r\n\ This\ class\ represents\ the\ game\ mode\ 'Final\ Battle',\ and\ contains\ the\ game\ logic\ and\ elements.\r\n\ This\ gamemode\ is\ the\ battle\ of\ Luke\ Skywalker\ against\ the\ Emperor\ Palpatine\ and\ his\ stormtroopers.\r\n\ The\ player\ constrols\ actor\ Luke,\ with\ attack,\ defend,\ jump\ and\ walk\ methods.\ The\ main\ target\ is\ to\ defeat\ Palpatine\ and\ ten\ stormtroopers\ to\ win\ the\ game.\ \r\n\ Otherwise,\ Luke\ gets\ defeated.\ \r\n\ It\ contains\ the\ player,\ enemy,\ and\ various\ UI\ elements\ such\ as\ health\ bars\ and\ icons.\ Also\ adds\ a\ background\ music\r\n\ \r\n\ @author\ Felipe\ Bertoli\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=EmperorBattle()
+comment1.text=\r\n\ Constructor\ for\ the\ EmperorBattle\ class.\ \r\n\ Sets\ the\ size\ of\ the\ game\ world\ and\ initializes\ the\ game\ objects,\ user\ interface\ elements\ and\ music.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ is\ called\ by\ the\ Greenfoot\ framework\ to\ perform\ actions\ in\ the\ game\ world.\r\n\ This\ method\ updates\ the\ user\ interface\ elements,\ like\ kill\ counts\ and\ actors\ health\ bars.\ Also\ close\ the\ music\ and\ checks\ for\ win\ or\ lose\ conditions.\r\n
+numComments=3

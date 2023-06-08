@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EnemyIcon
+comment0.text=\r\n\ That\ class\ sets\ the\ image\ icon\ for\ actor\ Palpatine\r\n\ \r\n\ @author\ Felipe\ Bertoli\ Oliveira\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=EnemyIcon()
+comment1.text=\r\n\ Constructs\ a\ new\ EnemyIcon\ object\ with\ an\ image\ of\ the\ character\ Palpatine's\ icon.\r\n\ The\ image\ is\ scaled\ to\ be\ larger\ than\ its\ original\ size.\r\n
+numComments=2

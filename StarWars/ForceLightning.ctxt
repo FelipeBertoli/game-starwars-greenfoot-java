@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ForceLightning
+comment0.text=\r\nThe\ ForceLightning\ class\ represents\ a\ lightning\ bolt\ projectile\ that\ can\ be\ fired\ by\ \r\nactor\ Palpatine\ The\ lightning\ bolt\ can\ be\ fired\ in\ three\ different\ directions\ and\ \r\ncan\ cause\ different\ amounts\ of\ damage\ depending\ on\ its\ rotation,\ \r\n\ when\ is\ collised\ with\ actor\ Luke.\r\n\ \ *@author\ Felipe\ Bertoli\ Oliveira\r\n@version\ 1.0\r\n
+comment1.params=direction\ rotation
+comment1.target=ForceLightning(int,\ int)
+comment1.text=\r\n\ Constructs\ a\ new\ ForceLightning\ object\ with\ a\ specified\ direction\ and\ rotation.\r\n\ The\ image\ of\ the\ lightning\ bolt\ is\ scaled\ based\ on\ its\ direction.\r\n\ The\ amount\ of\ damage\ the\ lightning\ bolt\ causes\ is\ determined\ by\ its\ rotation.\r\n\ \r\n\ @param\ direction\ the\ direction\ of\ the\ lightning\ bolt\ (either\ 1\ or\ -1)\r\n\ @param\ rotation\ the\ rotation\ of\ the\ lightning\ bolt\ in\ degrees\ (positive\ or\ negative)\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Calls\ the\ movement\ method.\r\n
+comment3.params=
+comment3.target=boolean\ getHit()
+comment3.text=\r\n\ Returns\ whether\ or\ not\ the\ lightning\ bolt\ has\ hit\ an\ object.\r\n\ \r\n\ @return\ true\ if\ the\ lightning\ bolt\ has\ hit\ an\ object,\ false\ otherwise\r\n
+comment4.params=
+comment4.target=void\ movement()
+comment4.text=\r\n\ Moves\ the\ lightning\ bolt\ in\ its\ specified\ direction.\r\n\ If\ the\ lightning\ bolt\ reaches\ the\ edge\ of\ the\ world,\ it\ is\ removed.\r\n\ If\ the\ lightning\ bolt\ intersects\ with\ the\ character\ Luke,\ the\ lightning\ bolt\ is\ removed\ and\ the\ character\ takes\ damage.\r\n
+numComments=5

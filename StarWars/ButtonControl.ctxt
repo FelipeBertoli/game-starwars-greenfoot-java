@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ButtonControl
+comment0.text=\r\n\ A\ button\ that,\ when\ clicked,\ displays\ the\ control\ screen.\r\n\ \r\n\ author\ Rafael\ Haruo\ Nakagawa\ Hoshino\r\n\ version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Sets\ the\ image\ of\ the\ button\ to\ "buttoncontrols.png"\ and\ checks\ for\ mouse\ clicks.\r\n\ If\ the\ button\ is\ clicked,\ sets\ the\ world\ to\ a\ new\ instance\ of\ ControlScreen.\r\n
+numComments=2

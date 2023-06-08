@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HealthBar
+comment0.text=\r\nThe\ HealthBar\ class\ represents\ a\ graphical\ bar\ that\ displays\ the\ current\ level\r\nof\ health\ of\ actor\ Luke\ in\ the\ game.\r\n\r\n\ @Felipe\ Bertoli\ Oliveira\r\n\ @version\ 1.0\r\n
+comment1.params=maxLife\ currentLife\ length
+comment1.target=HealthBar(int,\ int,\ int)
+comment1.text=\r\n\r\nConstructs\ a\ new\ HealthBar\ object\ with\ the\ specified\ maximum\ life,\ current\ life\ and\ length.\r\n@param\ maxLife\ the\ maximum\ amount\ of\ life\ that\ the\ bar\ can\ display\r\n@param\ currentLife\ the\ current\ amount\ of\ life\ to\ display\r\n@param\ length\ the\ length\ of\ the\ bar\ in\ pixels\r\n
+comment2.params=newLife
+comment2.target=void\ updateHealthBar(int)
+comment2.text=\r\nUpdates\ the\ current\ life\ value\ of\ the\ HealthBar\ and\ displays\ it\ graphically.\ \r\nIt's\ updated\ when\ actor\ Luke\ takes\ damage\ in\ the\ world.\r\n@param\ newLife\ the\ new\ value\ of\ the\ life\ to\ display\r\n
+numComments=3

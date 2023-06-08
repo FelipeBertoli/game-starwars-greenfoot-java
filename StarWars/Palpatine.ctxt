@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Palpatine
+comment0.text=\r\nPalpatine\ is\ an\ actor\ class\ that\ represents\ the\ character\ Emperor\ Palpatine\ of\ Star\ Wars\r\nPalpatine\ has\ the\ ability\ to\ charge\ up\ and\ unleash\ a\ powerful\ force\ lightning\ attack.\r\n\r\n@author\ Felipe\ Bertoli\ Oliveira\r\n@version\ 1.0\r\n
+comment1.params=life
+comment1.target=Palpatine(int)
+comment1.text=\r\n\ Constructs\ a\ new\ instance\ of\ Palpatine\ with\ a\ specified\ life\ amount.\r\n\ Also\ scales\ the\ images\ to\ a\ larger\ size.\ \r\n\ \r\n\ @param\ life\ The\ initial\ amount\ of\ life\ for\ Palpatine.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Calls\ charging()\ and\ handles\ the\ animation\ of\ Palpatine's\ attack.\ \r\n
+comment3.params=
+comment3.target=int\ getLife()
+comment3.text=\r\n\ Gets\ the\ current\ life\ amount\ of\ Palpatine.\r\n\ \r\n\ @return\ The\ current\ life\ amount\ of\ Palpatine.\r\n
+comment4.params=damage
+comment4.target=void\ takeDamage(int)
+comment4.text=\r\n\ Decreases\ Palpatine's\ life\ by\ a\ specified\ amount.\ \r\n\ \r\n\ @param\ damage\ The\ amount\ of\ damage\ to\ subtract\ from\ Palpatine's\ life.\r\n
+comment5.params=
+comment5.target=void\ animateAttack()
+comment5.text=\r\n\ Handles\ the\ animation\ of\ Palpatine's\ attack.\ \r\n
+comment6.params=
+comment6.target=void\ charging()
+comment6.text=\r\n\ Handles\ the\ charging\ mechanic\ of\ Palpatine's\ attack.\ \r\n
+comment7.params=
+comment7.target=void\ attack()
+comment7.text=\r\n\ Performs\ an\ attack\ with\ Force\ Lightning.\ \r\n\ If\ the\ charging\ time\ is\ greater\ than\ 0,\ decrease\ it\ by\ 1.\ \r\n\ If\ the\ charging\ time\ reaches\ 0,\ check\ if\ Palpatine\ intersects\ with\ Luke.\ \r\n\ If\ there\ is\ no\ intersection,\ create\ four\ instances\ of\ ForceLightning\ objects\ \r\n\ and\ add\ them\ to\ the\ world.\ Otherwise,\ move\ Palpatine\ to\ the\ top\ of\ the\ screen,\ \r\n\ change\ the\ boolean\ variable\ isAbove\ to\ true,\ create\ a\ ForceLightning\ object\ \r\n\ and\ add\ it\ to\ the\ world.\ \r\n\ Then,\ set\ the\ shotDelayCounter\ to\ shotDelay,\ \r\n\ set\ the\ chargingTime\ to\ 50\ and\ set\ isCharged\ to\ false.\ \r\n
+numComments=8

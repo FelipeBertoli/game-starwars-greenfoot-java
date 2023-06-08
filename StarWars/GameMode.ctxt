@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GameMode
+comment0.text=\r\n\ The\ world\ for\ selecting\ the\ game\ mode.\r\n\ \r\n\ @author\ Rafael\ Haruo\ Nakagawa\ Hoshino\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=GameMode()
+comment1.text=\r\n\ Creates\ a\ new\ GameMode\ world.\r\n\ Sets\ the\ background\ image\ to\ "space.png".\r\n\ Adds\ buttons\ for\ the\ normal\ and\ endless\ modes,\ as\ well\ as\ a\ button\ to\ go\ back.\r\n
+numComments=2

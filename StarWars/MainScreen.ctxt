@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MainScreen
+comment0.text=\r\n\ The\ main\ menu\ screen\ for\ the\ game.\r\n\ \r\n\ @author\ Rafael\ Haruo\ Nakagawa\ Hoshino\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=MainScreen()
+comment1.text=\r\n\ Creates\ a\ new\ MainScreen\ world.\r\n\ Sets\ the\ background\ image\ to\ "LogoStarWars.png".\r\n\ Adds\ buttons\ for\ starting\ the\ game\ and\ accessing\ the\ controls.\r\n
+numComments=2

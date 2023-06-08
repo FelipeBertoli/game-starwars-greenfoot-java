@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Shoot
+comment0.text=\r\nThis\ class\ it's\ called\ everytime\ that\ Stormtroopers\ actors\ fire.\r\n\r\n\ @author\ Felipe\ Bertoli\ Oliveira\r\n\ @version\ 1.0\r\n
+comment1.params=direction
+comment1.target=Shoot(int)
+comment1.text=\r\nConstructs\ a\ new\ Shoot\ object\ with\ the\ given\ direction\ and\ resizes\ the\ images\r\n@param\ direction\ The\ direction\ the\ bullet\ will\ travel.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ the\ Shoot\ class.\ The\ bullet\ will\ countdown\ a\ timer\ before\ being\ fired.\r\n\ Once\ fired,\ it\ will\ travel\ in\ the\ specified\ direction\ and\ damage\ any\ enemies\ it\ comes\ in\ contact\ with.\r\n
+comment3.params=
+comment3.target=void\ travel()
+comment3.text=\r\n\ Method\ that\ moves\ the\ bullet\ in\ the\ specified\ direction.\r\n
+comment4.params=
+comment4.target=void\ fire()
+comment4.text=\r\n\ Inflicts\ damage\ on\ any\ enemies\ the\ bullet\ comes\ in\ contact\ with.\ Can\ hit\ the\ player,\ also\ other\ Stormtroopers\r\n\ Removes\ the\ bullet\ object\ from\ the\ world\ if\ it\ reaches\ the\ edge\ of\ the\ screen.\r\n
+numComments=5
